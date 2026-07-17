@@ -1,0 +1,99 @@
+{
+  "collected_at": "2026-07-17",
+  "collector": "maux339-cpu",
+  "source": "X (Twitter) OSINT posts + replies + GitHub resolution",
+  "meta_repo": "https://github.com/maux339-cpu/osint-x-intel-arsenal-2026",
+  "categories": {
+    "arsenals": [
+      {
+        "name": "awesome-osint-arsenal",
+        "upstream": "https://github.com/rawfilejson/awesome-osint-arsenal",
+        "fork": "https://github.com/maux339-cpu/awesome-osint-arsenal",
+        "x_refs": ["https://x.com/itsharmanjot/status/2072947976671240636"],
+        "notes": "1100+ tools, 50+ categories; most cited mega-list on X this cycle"
+      },
+      {
+        "name": "D4rk_Intel-OSINT-Investigative-Toolkit",
+        "upstream": "https://github.com/techenthusiast167/D4rk_Intel-OSINT-Investigative-Toolkit",
+        "fork": "https://github.com/maux339-cpu/D4rk_Intel-OSINT-Investigative-Toolkit",
+        "x_refs": ["https://x.com/VivekIntel/status/2077497467818709456"]
+      },
+      {
+        "name": "osint-tools-radar",
+        "upstream": "https://github.com/OSINT360/osint-tools-radar",
+        "fork": "https://github.com/maux339-cpu/osint-tools-radar",
+        "x_refs": ["https://x.com/osint360_/status/2077296714982060298"],
+        "notes": "Agentic AI OSINT skills/MCP radar; see AGENTIC.md"
+      }
+    ],
+    "ai_frameworks": [
+      {
+        "name": "OpenOSINT",
+        "upstream": "https://github.com/OpenOSINT/OpenOSINT",
+        "fork": "https://github.com/maux339-cpu/OpenOSINT",
+        "x_refs": ["https://x.com/VivekIntel/status/2077465681612959859"],
+        "features": ["CLI", "Web UI", "REPL", "MCP", "PDF/MD reports", "~18 tools"]
+      }
+    ],
+    "username_socmint": [
+      {"name": "sherlock", "fork": "https://github.com/maux339-cpu/sherlock"},
+      {"name": "maigret", "fork": "https://github.com/maux339-cpu/maigret"},
+      {"name": "blackbird", "fork": "https://github.com/maux339-cpu/blackbird"},
+      {"name": "social-analyzer", "fork": "https://github.com/maux339-cpu/social-analyzer"}
+    ],
+    "email": [
+      {"name": "holehe", "fork": "https://github.com/maux339-cpu/holehe"},
+      {"name": "theHarvester", "fork": "https://github.com/maux339-cpu/theHarvester"},
+      {"name": "spiderfoot", "fork": "https://github.com/maux339-cpu/spiderfoot"}
+    ],
+    "phone": [
+      {"name": "phoneinfoga", "fork": "https://github.com/maux339-cpu/phoneinfoga"},
+      {"name": "SearchPhone", "fork": "https://github.com/maux339-cpu/SearchPhone", "upstream": "https://github.com/HackUnderway/SearchPhone"}
+    ],
+    "domain_network": [
+      {"name": "recon-ng", "fork": "https://github.com/maux339-cpu/recon-ng"},
+      {"name": "amass", "local": "C:\\Users\\maux3\\CyberArsenal\\tools\\amass"},
+      {"name": "Shodan", "type": "web_api"},
+      {"name": "Censys", "type": "web_api"}
+    ],
+    "other": [
+      {"name": "trape", "fork": "https://github.com/maux339-cpu/trape"},
+      {"name": "ExifTool", "type": "binary"},
+      {"name": "WhatWeb", "type": "cli"},
+      {"name": "Katana", "type": "cli"},
+      {"name": "WaybackURLs", "type": "cli"}
+    ]
+  },
+  "techniques_from_x": [
+    "Username pivot across 1000-3000 sites",
+    "Email registration enumeration (Holehe) + breach check",
+    "Phone multi-API lookup",
+    "Domain harvest + Shodan surface",
+    "Google dorks for .env/SQL dumps",
+    "Reverse image + GEOINT landmark matching",
+    "WHOIS/ASN via RIR (ARIN/RIPE/APNIC)",
+    "AI agent chaining via MCP (OpenOSINT / radar)",
+    "Confidence scoring instead of binary match",
+    "Entity graphs (Maltego / SpiderFoot)"
+  ],
+  "skill_templates": [
+    "osint-username",
+    "osint-email",
+    "osint-phone",
+    "osint-domain",
+    "osint-person-br",
+    "osint-geoint"
+  ],
+  "x_seed_posts": [
+    "2072947976671240636",
+    "2076638131437125808",
+    "2077465681612959859",
+    "2077497467818709456",
+    "2077749712128508189",
+    "2077843942713049498",
+    "2077296714982060298",
+    "2077366221381456308",
+    "1253002949795762183",
+    "1995910828839838171"
+  ]
+}
