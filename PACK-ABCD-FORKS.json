@@ -1,0 +1,38 @@
+{
+  "pack": "A+B+C+D",
+  "date": "2026-07-22",
+  "hub": "maux339-cpu",
+  "scope": "lab-authorized-only",
+  "forked_new": [
+    {"name": "OnionSearch", "upstream": "megadose/OnionSearch", "pack": "A"},
+    {"name": "TorBot", "upstream": "DedSecInside/TorBot", "pack": "A"},
+    {"name": "darkdump", "upstream": "josh0xA/darkdump", "pack": "A"},
+    {"name": "ail-framework", "upstream": "ail-project/ail-framework", "pack": "A"},
+    {"name": "OSINT-Framework", "upstream": "lockfale/OSINT-Framework", "pack": "A"},
+    {"name": "naabu", "upstream": "projectdiscovery/naabu", "pack": "B"},
+    {"name": "BloodHound.py", "upstream": "dirkjanm/BloodHound.py", "pack": "B"},
+    {"name": "kerbrute", "upstream": "ropnop/kerbrute", "pack": "B"},
+    {"name": "gophish", "upstream": "gophish/gophish", "pack": "B"},
+    {"name": "evilginx2", "upstream": "kgretzky/evilginx2", "pack": "B"},
+    {"name": "pywhisker", "upstream": "ShutdownRepo/pywhisker", "pack": "B"}
+  ],
+  "already_had": [
+    "h8mail", "OSINT-Cheat-sheet", "GHunt", "WhatsMyName",
+    "nuclei", "nuclei-templates", "httpx", "subfinder", "katana",
+    "NetExec", "impacket", "BloodHound", "Certipy", "awesome-osint"
+  ],
+  "pipeline_iab_surface": [
+    "subfinder", "naabu", "httpx", "nuclei", "nuclei-templates"
+  ],
+  "pipeline_ad_lab": [
+    "NetExec", "BloodHound.py", "BloodHound", "impacket", "Certipy", "kerbrute", "pywhisker"
+  ],
+  "pipeline_osint_dark": [
+    "OnionSearch", "TorBot", "darkdump", "ail-framework", "h8mail"
+  ],
+  "notes": {
+    "cme": "archived — use NetExec",
+    "phishing": "gophish/evilginx2 consent-only lab",
+    "stealthmole": "vendor CTI — free plan + hub feed; not open-source"
+  }
+}
